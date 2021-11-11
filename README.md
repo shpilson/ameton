@@ -1,6 +1,6 @@
 # Тестовое задание для Ameton
-Задача:  
+Макет [посмотреть в Figma](https://www.figma.com/file/JABXFhKwCHk4QTy6rXWVXU/vkusvill?node-id=1%3A56)  
+Задачи:  
 – Сверстать кроссбраузерно с поддержкой браузеров и Pixel Perfect  
 – Макет должен быть свёрстан адаптивно  
 – Все кнопки и ссылки, которые есть на странице должны быть без событий при клике на них, но карусель с плитками должна работать как карусель  
-Макет [посмотреть в Figma](https://www.figma.com/file/JABXFhKwCHk4QTy6rXWVXU/vkusvill?node-id=1%3A56)  
