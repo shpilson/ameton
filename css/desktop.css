@@ -1,0 +1,21 @@
+/* Basic */
+
+@font-face {
+    font-family: "Museo Sans Cyrl";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: local("Museo Sans Cyrl"), url('https://shpilson.github.io/ameton/fonts/museosanscyrl-500.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: "Museo Sans Cyrl";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local("Museo Sans Cyrl"), url('https://shpilson.github.io/ameton/fonts/museosanscyrl-700.ttf') format('ttf');
+}
+
+body {
+    font-family: "Museo Sans Cyrl", sans-serif;
+}
