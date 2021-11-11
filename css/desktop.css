@@ -1,4 +1,4 @@
-/* Basic */
+/* Basic. Fonts */
 
 @font-face {
     font-family: "Museo Sans Cyrl";
@@ -16,6 +16,20 @@
     src: local("Museo Sans Cyrl"), url('https://shpilson.github.io/ameton/fonts/museosanscyrl-700.ttf') format('ttf');
 }
 
+/* Styles */
+
 body {
     font-family: "Museo Sans Cyrl", sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
