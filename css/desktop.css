@@ -41,6 +41,7 @@ body {
     height: 306px;
     background-color: #93BBEA;
     margin: 0 auto;
+    border-radius: 40px;
 }
 
 .container {
