@@ -43,7 +43,6 @@ body {
 }
 
 .header {
-    display: flex;
     max-width: 1200px;
     max-height: 306px;
     background-color: #93BBEA;
