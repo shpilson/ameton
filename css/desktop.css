@@ -37,15 +37,17 @@ body {
     flex-direction: column;
 }
 
+.header {
+    max-height: 306px;
+    background-color: #93BBEA;
+    margin: 0 auto;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.header {
-    max-height: 306px;
-    background-color: #93BBEA;
-}
 .header__text {
 }
 .header__text-title {
