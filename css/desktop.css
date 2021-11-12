@@ -44,6 +44,7 @@ body {
     background-color: #93BBEA;
     background-image: url("https://shpilson.github.io/ameton/img/bg.svg");
     background-position: center bottom;
+    background-repeat: no-repeat;
 }
 
 .container {
