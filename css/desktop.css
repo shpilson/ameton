@@ -42,6 +42,7 @@ body {
     height: 306px;
     border-radius: 40px;
     background-color: #93BBEA;
+    background-image: url("https://shpilson.github.io/ameton/img/bg.svg");
 }
 
 .container {
