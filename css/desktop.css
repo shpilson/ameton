@@ -52,9 +52,13 @@ body {
     width: 1200px;
 }
 
-.header__text {}
+.header__text {
+    display: flex;
+    justify-content: center;
+}
 
-.header__text-title {}
+.header__text-title {
+}
 
 .header__text-undertitle {}
 
