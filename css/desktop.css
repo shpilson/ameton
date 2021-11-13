@@ -60,7 +60,6 @@ body {
 }
 
 .header__text-title {
-    font-style: normal;
     font-weight: bold;
     font-size: 60px;
     line-height: 120%;
@@ -70,8 +69,6 @@ body {
 .header__text-undertitle {
     width: 535px;
     text-align: center;
-    font-style: normal;
-    font-weight: normal;
     font-size: 17px;
     line-height: 140%;
     color: #FFFFFF;
@@ -84,12 +81,36 @@ body {
 }
 
 .header__button {
+    margin: 0 4px;
     width: 160px;
     height: 48px;
-    background: #FFFFFF;
+    padding-left: 25px;
     border-radius: 12px;
     border-style: none;
     cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    color: #1A1A1A;
+}
+
+.header__button--chat {
+    background: url("/img/chat-icon.svg") no-repeat 25px;
+    background-color: #FFFFFF;
+}
+
+.header__button--call {
+    background: url("/img/chat-icon.svg") no-repeat 25px;
+    background-color: #FFFFFF;
+}
+
+.header__button--mail {
+    background: url("/img/chat-icon.svg") no-repeat 25px;
+    background-color: #FFFFFF;
+}
+
+.header__button--feedback {
+    background: url("/img/chat-icon.svg") no-repeat 25px;
+    background-color: #FFFFFF;
 }
 
 .socials {}
