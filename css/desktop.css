@@ -160,7 +160,9 @@ body {
 
 .contacts__social-image {}
 
-.faq {}
+.faq {
+
+}
 
 .faq__title {
     font-weight: 600;
@@ -180,7 +182,7 @@ body {
 }
 
 .faq__card {
-    margin: 0 12px;
+    margin: 32px 12px;
     width: 282px;
     height: 160px;
     background: #FFFFFF;
@@ -189,13 +191,14 @@ body {
 }
 
 .faq__card-title {
-    margin: 16px 16px;
+    margin: 16px 16px 0;
     font-weight: 600;
     font-size: 20px;
     color: #1A1A1A;
 }
 
 .faq__card-text {
+    margin: 0px 16px;
     font-size: 15px;
     color: #949494;
 }
