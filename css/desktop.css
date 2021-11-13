@@ -68,6 +68,8 @@ body {
 }
 
 .header__text-undertitle {
+    width: 535px;
+    text-align: center;
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
