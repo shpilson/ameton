@@ -89,6 +89,7 @@ body {
     background: #FFFFFF;
     border-radius: 12px;
     border-style: none;
+    cursor: pointer;
 }
 
 .socials {}
