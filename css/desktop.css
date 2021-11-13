@@ -77,9 +77,17 @@ body {
     color: #FFFFFF;
 }
 
-.header__buttons {}
+.header__buttons {
+    display: flex;
+    align-items: center;
+}
 
-.header__button {}
+.header__button {
+    width: 160px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
 
 .socials {}
 
