@@ -53,13 +53,13 @@ body {
 }
 
 .header__text {
+    margin: 40px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.header__text-title {
-}
+.header__text-title {}
 
 .header__text-undertitle {}
 
