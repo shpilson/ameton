@@ -162,17 +162,43 @@ body {
 
 .faq {}
 
-.faq__title {}
+.faq__title {
+    font-weight: 600;
+    font-size: 40px;
+    color: #1A1A1A;
+    text-align: center;
+}
 
-.title {}
+.title {
+    font-weight: 600;
+    font-size: 40px;
+    color: #1A1A1A;
+}
 
-.faq__questions-carousel {}
+.faq__questions-carousel {
+    display: flex;
+}
 
-.faq__card {}
+.faq__card {
+    margin: 0 12px;
+    width: 282px;
+    height: 160px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+}
 
-.faq__card-title {}
+.faq__card-title {
+    margin: 16px 16px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1A1A1A;
+}
 
-.faq__card-text {}
+.faq__card-text {
+    font-size: 15px;
+    color: #949494;
+}
 
 .help {}
 
