@@ -87,6 +87,7 @@ body {
     height: 48px;
     background: #FFFFFF;
     border-radius: 12px;
+    border-style: none;
 }
 
 .socials {}
