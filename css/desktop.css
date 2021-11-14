@@ -161,7 +161,7 @@ body {
 .contacts__social-image {}
 
 .faq {
-
+    margin: 80px 0;
 }
 
 .faq__title {
@@ -182,7 +182,8 @@ body {
 }
 
 .faq__card {
-    margin: 32px 12px;
+    display: flex;
+    margin: 32px auto;
     width: 282px;
     height: 160px;
     background: #FFFFFF;
@@ -195,28 +196,62 @@ body {
     font-weight: 600;
     font-size: 20px;
     color: #1A1A1A;
+    line-height: 120%;
+}
+
+faq__card-title--500 {
+    font-weight: 500;
+}
+
+.faq__answer {
+    display: flex;
+    flex-direction: column;
 }
 
 .faq__card-text {
-    margin: 0px 16px;
+    margin: 8px 16px;
     font-size: 15px;
     color: #949494;
 }
 
-.help {}
+.faq__img {}
 
-.help__title {}
+.help {
+    margin: 0 0 32px;
+}
+
+.help__title {
+    text-align: center;
+}
 
 .help__container {}
 
 .help__accordion {}
 
-.help__accordion-item {}
+.help__accordion-item {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+}
 
 .help__accordion-link {}
 
-.help__accordion-title {}
+.help__accordion-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: #1A1A1A;
+}
 
-.help__accordion-answer {}
+.help__accordion-answer {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
 
-.help__acordion-undertitle {}
+.help__acordion-undertitle {
+    font-size: 13px;
+    line-height: 140%;
+    color: #949494;
+}
