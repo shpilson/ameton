@@ -222,21 +222,26 @@ faq__card-title--500 {
 
 .help__title {
     text-align: center;
+    margin: 0 0 32px;
 }
 
-.help__container {}
-
-.help__accordion {}
+.help__accordion {
+    display: flex;
+    flex-direction: column;
+}
 
 .help__accordion-item {
+    min-height: 64px;
+    margin: 12px 142px;
+    display: flex;
+    justify-content: space-between;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
     border-radius: 16px;
 }
 
-.help__accordion-link {}
-
 .help__accordion-title {
+    margin: 20px 24px 0;
     font-weight: 600;
     font-size: 20px;
     line-height: 120%;
@@ -244,14 +249,21 @@ faq__card-title--500 {
 }
 
 .help__accordion-answer {
-    padding: 0 18px;
+    display: flex;
+    margin: 0 142px;
+    justify-content: space-between;
+
+    padding: 0 24px;
     display: none;
     background-color: white;
     overflow: hidden;
+
 }
 
 .help__acordion-undertitle {
+    max-width: 450px;
     font-size: 13px;
     line-height: 140%;
     color: #949494;
+    margin: 4px 24px 20px;
 }
