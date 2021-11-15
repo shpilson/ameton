@@ -1,4 +1,5 @@
 var acc = document.getElementsByClassName("help__accordion-item");
+var arrow = document.getElementsByClassName("help__accordion-arrow");
 var i;
 
 for (i = 0; i < acc.length; i++) {

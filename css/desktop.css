@@ -257,7 +257,6 @@ faq__card-title--500 {
     display: flex;
     margin: 0 142px;
     justify-content: space-between;
-
     padding: 0 24px;
     display: none;
     background-color: white;
@@ -271,4 +270,3 @@ faq__card-title--500 {
     color: #949494;
     margin: 4px 24px 20px;
 }
-
