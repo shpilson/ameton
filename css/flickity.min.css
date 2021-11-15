@@ -45,10 +45,10 @@ https://flickity.metafizzy.co
     position: absolute;
     background: hsla(0, 0%, 100%, .75);
     border: none;
-    color: #333
 }
 
 .flickity-button:hover {
+
     background: #fff;
     cursor: pointer
 }
@@ -67,10 +67,6 @@ https://flickity.metafizzy.co
     opacity: .3;
     cursor: auto;
     pointer-events: none
-}
-
-.flickity-button-icon {
-    fill: currentColor
 }
 
 .flickity-prev-next-button {
@@ -108,6 +104,7 @@ https://flickity.metafizzy.co
 }
 
 .flickity-page-dots {
+    display: none;
     position: absolute;
     width: 100%;
     bottom: -25px;
