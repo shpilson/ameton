@@ -178,11 +178,11 @@ body {
 }
 
 .faq__questions-carousel {
-    display: flex;
 }
 
 .faq__card {
     display: flex;
+    margin-left: 24px;
     margin: 32px auto;
     width: 282px;
     height: 160px;
@@ -270,3 +270,4 @@ faq__card-title--500 {
     color: #949494;
     margin: 4px 24px 20px;
 }
+
