@@ -5,7 +5,7 @@
     font-style: normal;
     font-weight: normal;
     font-display: swap;
-    src: local("Museo Sans Cyrl"), url('/fonts/museosanscyrl-500.ttf') format('ttf');
+    src: local("Museo Sans Cyrl"), url('https://shpilson.github.io/shpilson/ameton/fonts/museosanscyrl-500.ttf') format('ttf');
 }
 
 @font-face {
@@ -13,7 +13,7 @@
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: local("Museo Sans Cyrl"), url('/fonts/museosanscyrl-700.ttf') format('ttf');
+    src: local("Museo Sans Cyrl"), url('https://shpilson.github.io/shpilson/ameton/fonts/museosanscyrl-700.ttf') format('ttf');
 }
 
 @font-face {
@@ -21,7 +21,7 @@
     font-style: normal;
     font-weight: 900;
     font-display: swap;
-    src: local("Museo Sans Cyrl"), url('/fonts/museosanscyrl-900.ttf') format('ttf');
+    src: local("Museo Sans Cyrl"), url('https://shpilson.github.io/shpilson/ameton/fonts/museosanscyrl-900.ttf') format('ttf');
 }
 
 /* Styles */
@@ -94,25 +94,25 @@ body {
 
 .header__button--chat {
     padding-left: 25px;
-    background: url("/img/chat-icon.svg") no-repeat 25px;
+    background: url("https://shpilson.github.io/shpilson/ameton/img/chat-icon.svg") no-repeat 25px;
     background-color: #FFFFFF;
 }
 
 .header__button--call {
     padding-left: 25px;
-    background: url("/img/call-icon.svg") no-repeat 25px;
+    background: url("https://shpilson.github.io/shpilson/ameton/img/call-icon.svg") no-repeat 25px;
     background-color: #FFFFFF;
 }
 
 .header__button--mail {
     padding-left: 25px;
-    background: url("/img/mail-icon.svg") no-repeat 45px;
+    background: url("https://shpilson.github.io/shpilson/ameton/img/mail-icon.svg") no-repeat 45px;
     background-color: #FFFFFF;
 }
 
 .header__button--feedback {
     padding-left: 25px;
-    background: url("/img/star-icon.svg") no-repeat 15px;
+    background: url("https://shpilson.github.io/shpilson/ameton/img/star-icon.svg") no-repeat 15px;
     background-color: #FFFFFF;
 }
 
